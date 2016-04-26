@@ -1,0 +1,2 @@
+index.html代码中的bar类下li中的两个div设置了display为inline-block，但这两个div并没有在父级的li元素中，而在其底部外，
+这是什么原因？？？？？？
