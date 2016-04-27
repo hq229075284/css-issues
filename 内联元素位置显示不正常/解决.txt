@@ -1,0 +1,2 @@
+line-height仅决定基线之间的最小间距，和基线的位置无关也不影响，基线由font-size与字母x决定，基线只会出现在文本字的空间里，不会出现在行高的空白区，比如font-size为10px,line-height为20px,基线不会出现在上下的5px空白中。
+但是，比如font-size为16px，line-height为6px，则会在行的上边溢出5px,下边溢出5px，但溢出的部分不占空间，不影响布局
